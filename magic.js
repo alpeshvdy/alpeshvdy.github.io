@@ -50,16 +50,23 @@ dummy.select();
 document.execCommand("copy");
 document.body.removeChild(dummy);
     
-window.open('https://www.google.com/search?q="' + b + '"');
-window.open('https://www.google.com/search?q="' + bb + '"');
-window.open('https://www.google.com/search?q="' + ee + '"');
-window.open('https://www.google.com/search?q="' + ii + '"');
-window.open('https://www.google.com/search?q="' + k + '"');   
 window.open("https://www.google.com/search?q=" + a);
 window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + loc);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + ee);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "party");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Facebook");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Instagram");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Twitter");
+window.open('https://www.google.com/search?q="' + ee + '"');
+window.open('https://www.google.com/search?q="' + ii + '"');
+window.open('https://www.google.com/search?q="' + k + '"');
+window.open('https://www.google.com/search?q="' + ee + '"' + "+" + plus + "+" + "party");
+window.open('https://www.google.com/search?q="' + b + '"');
+window.open('https://www.google.com/search?q="' + bb + '"');
+window.open('https://www.google.com/search?q="' + b + '"' + "+" + plus + "+" + "party");
 window.open("https://www.facebook.com/search/results.php?q=" + fb);
 window.open("https://www.facebook.com/search/results.php?q=" + fb + "%2C%20" + loc);          
-window.open("https://www.instagram.com/" + bb + "/");     
+window.open("https://www.instagram.com/" + a + "/");     
 window.open("https://www.twitter.com/search?q=" + tw);    
 document.getElementById("inputText").value = "";
 }
@@ -115,16 +122,23 @@ document.execCommand("copy");
 document.body.removeChild(dummy);
     
     
-window.open('https://www.google.com/search?q="' + b + '"');
-window.open('https://www.google.com/search?q="' + bb + '"');
-window.open('https://www.google.com/search?q="' + ee + '"');
-window.open('https://www.google.com/search?q="' + ii + '"');
-window.open('https://www.google.com/search?q="' + k + '"');   
 window.open("https://www.google.com/search?q=" + a);
 window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + loc);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + ee);  
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "party");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Facebook");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Instagram");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Twitter");
+window.open('https://www.google.com/search?q="' + ee + '"');
+window.open('https://www.google.com/search?q="' + ii + '"');
+window.open('https://www.google.com/search?q="' + k + '"');
+window.open('https://www.google.com/search?q="' + ee + '"' + "+" + plus + "+" + "party");
+window.open('https://www.google.com/search?q="' + b + '"');
+window.open('https://www.google.com/search?q="' + bb + '"');
+window.open('https://www.google.com/search?q="' + b + '"' + "+" + plus + "+" + "party");
 window.open("https://www.facebook.com/search/results.php?q=" + fb);
 window.open("https://www.facebook.com/search/results.php?q=" + fb + "%2C%20" + loc);   
-window.open("https://www.instagram.com/" + bb + "/");   
+window.open("https://www.instagram.com/" + a + "/");   
 window.open("https://www.twitter.com/search?q=" + tw);    
 document.getElementById("inputText").value = "";
 }
@@ -178,17 +192,24 @@ for (i = 0; i < aa.length; i++) {
         loc = "Australia";
 }
 
-window.open('https://www.google.com/search?q="' + plus + cc + '"');    
+window.open("https://www.google.com/search?q=" + a);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + loc);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + cc);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "party");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Facebook");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Instagram");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Twitter");
+window.open('https://www.google.com/search?q="' + plus + cc + '"');
 window.open('https://www.google.com/search?q="' + plus + dd + '"'); // mx number with + sign
 window.open('https://www.google.com/search?q="' + dd + '"');
 window.open('https://www.google.com/search?q="' + dddd + '"');
+window.open('https://www.google.com/search?q="' + plus + cc + '"' + "+" + plus + "+" + "party");
 window.open('https://www.google.com/search?q="' + b + '"');
 window.open('https://www.google.com/search?q="' + bb + '"');
-window.open("https://www.google.com/search?q=" + a);
-window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + loc); 
+window.open('https://www.google.com/search?q="' + b + '"' + "+" + plus + "+" + "party");
 window.open("https://www.facebook.com/search/results.php?q=" + fb); 
 window.open("https://www.facebook.com/search/results.php?q=" + fb + "%2C%20" + loc);         
-window.open("https://www.instagram.com/" + bb + "/");    
+window.open("https://www.instagram.com/" + a + "/");    
 window.open("https://www.twitter.com/search?q=" + tw);    
 document.getElementById("inputText").value = "";
 }
@@ -244,17 +265,26 @@ for (i = 0; i < aa.length; i++) {
         loc = "Australia";
 }
 
-window.open('https://www.google.com/search?q="' + plus + cc + '"');    
+window.open("https://www.google.com/search?q=" + a);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + loc);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + cc);
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "party");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Facebook");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Instagram");
+window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + "Twitter");
+window.open('https://www.google.com/search?q="' + plus + cc + '"');
 window.open('https://www.google.com/search?q="' + plus + dd + '"'); // mx number with + sign
 window.open('https://www.google.com/search?q="' + dd + '"');
 window.open('https://www.google.com/search?q="' + dddd + '"');
+window.open('https://www.google.com/search?q="' + plus + cc + '"' + "+" + plus + "+" + "party");
 window.open('https://www.google.com/search?q="' + b + '"');
 window.open('https://www.google.com/search?q="' + bb + '"');
-window.open("https://www.google.com/search?q=" + a);
-window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + loc);
+window.open('https://www.google.com/search?q="' + b + '"' + "+" + plus + "+" + "party");
 window.open("https://www.facebook.com/search/results.php?q=" + fb);  
 window.open("https://www.facebook.com/search/results.php?q=" + fb + "%2C%20" + loc);        
-window.open("https://www.instagram.com/" + bb + "/");      
+window.open("https://www.instagram.com/" + a + "/");      
 window.open("https://www.twitter.com/search?q=" + tw);    
 document.getElementById("inputText").value = "";
 }
+
+
