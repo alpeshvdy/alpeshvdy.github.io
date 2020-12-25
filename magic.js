@@ -1,6 +1,23 @@
+function AIO(){
+ var textInput = document.getElementById("inputText").value;
+ var array = textInput.split(/\r?\n/);
+
+ if (array[3][1] == 1) {
+        US1();
+}   else if (array[3][1] !== 1 && array[3][1] !== "m") {
+        MX();
+}	else if (array[3][1] == "m") {
+        if (array[4][1] == 1){
+        	US2();
+        } else if (array[4][1] !== 1){
+        	MX2();
+        }
+}
+}
+
 function US1(){
-    var textInput = document.getElementById("inputText").value;
-    var array = textInput.split(/\r?\n/);
+ var textInput = document.getElementById("inputText").value;
+ var array = textInput.split(/\r?\n/);
     var a = array[0];
     var aa = a.split(" ");
     var b = array[2].split(" ")[0];
@@ -16,8 +33,9 @@ function US1(){
     var j = ii.replace("-", "");
     var k = j.replace("-", "");
     var plus = "%2B";
-    
-    
+    console.log(d[0]);
+
+
     var fb = "";
     var i;
 for (i = 0; i < aa.length; i++) {
@@ -73,8 +91,8 @@ document.getElementById("inputText").value = "";
 
 
 function US2(){
-    var textInput = document.getElementById("inputText").value;
-    var array = textInput.split(/\r?\n/);
+ var textInput = document.getElementById("inputText").value;
+ var array = textInput.split(/\r?\n/);
     var a = array[0];
     var aa = a.split(" ");
     var b = array[2].split(" ")[0];
@@ -144,8 +162,8 @@ document.getElementById("inputText").value = "";
 }
 
 function MX(){
-    var textInput = document.getElementById("inputText").value;
-    var array = textInput.split(/\r?\n/);
+ var textInput = document.getElementById("inputText").value;
+ var array = textInput.split(/\r?\n/);
     var a = array[0];
     var aa = a.split(" ");
     var b = array[2].split(" ")[0];
@@ -215,8 +233,8 @@ document.getElementById("inputText").value = "";
 }
 
 function MX2(){
-    var textInput = document.getElementById("inputText").value;
-    var array = textInput.split(/\r?\n/);
+ var textInput = document.getElementById("inputText").value;
+ var array = textInput.split(/\r?\n/);
     var a = array[0];
     var aa = a.split(" ");
     var b = array[2].split(" ")[0];
