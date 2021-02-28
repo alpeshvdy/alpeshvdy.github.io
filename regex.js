@@ -24,3 +24,4 @@ for (z = 0; z < value[x].textContent.split(" ").length; z++){
 }
 }
 }
+console.log("executed");
