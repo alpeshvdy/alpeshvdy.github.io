@@ -70,7 +70,8 @@ window.open("https://www.google.com/search?q=" + a + "+" + plus + "+" + b);
 window.open("https://www.facebook.com/search/top?q=" + fb);         
 window.open("https://www.instagram.com/" + bb + "/");
 window.open("https://www.twitter.com/search?q=" + tw);
-window.open("https://www.linkedin.com/search/results/all/?keywords=" + fb + "&origin=GLOBAL_SEARCH_HEADER");    
+window.open("https://www.linkedin.com/search/results/all/?keywords=" + fb + "&origin=GLOBAL_SEARCH_HEADER");
+window.open("https://www.phonevalidator.com/search?q=" + ee);
 document.getElementById("inputText").value = "";
 }
 
@@ -132,6 +133,7 @@ window.open("https://www.google.com/search?q=" + a + "+" + "AND " + plus +  cc);
 window.open("https://www.facebook.com/search/top?q=" + fb);         
 window.open("https://www.instagram.com/" + bb + "/");
 window.open("https://www.twitter.com/search?q=" + tw); 
-window.open("https://www.linkedin.com/search/results/all/?keywords=" + fb + "&origin=GLOBAL_SEARCH_HEADER");    
+window.open("https://www.linkedin.com/search/results/all/?keywords=" + fb + "&origin=GLOBAL_SEARCH_HEADER");
+window.open("https://www.phonevalidator.com/search?q=" + ee);
 document.getElementById("inputText").value = "";
 }
