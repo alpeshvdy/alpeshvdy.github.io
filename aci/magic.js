@@ -71,7 +71,7 @@ window.open("https://www.facebook.com/search/top?q=" + fb);
 window.open("https://www.instagram.com/" + bb + "/");
 window.open("https://www.twitter.com/search?q=" + tw);
 window.open("https://www.linkedin.com/search/results/all/?keywords=" + fb + "&origin=GLOBAL_SEARCH_HEADER");
-window.open("https://www.phonevalidator.com/" + ee + "/");
+window.open("https://www.phonevalidator.com/");
 document.getElementById("inputText").value = "";
 }
 
